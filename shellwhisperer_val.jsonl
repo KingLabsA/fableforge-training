@@ -1,0 +1,10 @@
+{"instruction": "Find all files modified in the last 24 hours", "input": "", "output": "find . -mtime -1 -type f"}
+{"instruction": "Recursively delete all .pyc files", "input": "", "output": "find . -name \"*.pyc\" -delete"}
+{"instruction": "Count lines of code in all Python files", "input": "", "output": "find . -name \"*.py\" -exec cat {} + | wc -l"}
+{"instruction": "Find files larger than 100MB", "input": "", "output": "find / -type f -size +100M"}
+{"instruction": "List all empty directories", "input": "", "output": "find . -type d -empty"}
+{"instruction": "Find broken symlinks", "input": "", "output": "find . -type l ! -exec test -e {} \\; -print"}
+{"instruction": "Find the 5 most recently modified files", "input": "", "output": "find . -type f -printf \"%T@ %p\\n\" | sort -rn | head -5 | cut -d\" \" -f2-"}
+{"instruction": "Compare two directories recursively", "input": "", "output": "diff -rq /dir1 /dir2"}
+{"instruction": "Calculate total size of all .log files", "input": "", "output": "find . -name \"*.log\" -exec du -ch {} + | tail -1"}
+{"instruction": "Find all hard links to a file", "input": "", "output": "find / -samefile /path/to/file"}

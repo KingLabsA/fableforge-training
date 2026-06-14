@@ -1,0 +1,50 @@
+{
+  "base_score": 77.0,
+  "finetuned_score": 75.0,
+  "base_avg": 1.925,
+  "finetuned_avg": 1.875,
+  "improvement_pct": -2.5974025974025996,
+  "total_prompts": 40,
+  "by_category": {
+    "File Operations": {
+      "base_avg": 2.125,
+      "finetuned_avg": 2.125
+    },
+    "Process Management": {
+      "base_avg": 2.5,
+      "finetuned_avg": 2.5
+    },
+    "Networking": {
+      "base_avg": 1.25,
+      "finetuned_avg": 1.25
+    },
+    "Text Processing": {
+      "base_avg": 2.125,
+      "finetuned_avg": 1.875
+    },
+    "Git": {
+      "base_avg": 2.25,
+      "finetuned_avg": 2.125
+    },
+    "Docker": {
+      "base_avg": 1.875,
+      "finetuned_avg": 1.875
+    },
+    "Python": {
+      "base_avg": 1.25,
+      "finetuned_avg": 1.25
+    },
+    "Security": {
+      "base_avg": 2.125,
+      "finetuned_avg": 1.625
+    },
+    "System Admin": {
+      "base_avg": 1.5,
+      "finetuned_avg": 1.875
+    },
+    "Advanced Shell": {
+      "base_avg": 2.25,
+      "finetuned_avg": 2.25
+    }
+  }
+}
